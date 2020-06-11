@@ -13,11 +13,11 @@
 
 Созданы две сущности (entities) :
 - category :
-  - id (int, autoincrement)
+  - id (int, primary key, autoincrement)
   - title (string, length 3-12)
   - eId (int|null, unique)
 - product :
-  - id (int, autoincrement)
+  - id (int, primary key, autoincrement)
   - title (string, length 3-12)
   - price (float, range 0-200)
   - eId (int|null, unique)
