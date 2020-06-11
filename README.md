@@ -1,4 +1,4 @@
-## Общее описание
+## Описание
 Это пример back-end кода на Symfony 4.4 (и только на Symfony).</br></br>
 При разработке была использована MySQL (миграции ориентированы на кодировку utf8mb4).</br></br>
 Создан контроллер по типу JSON REST API со следующими роутами :</br></br>
@@ -10,6 +10,7 @@
   - URI : /api/product | создаёт product по спецификации, указанной в JSON-запросе</br></br>
 - HTTP-метод : PUT | URI : /api/product/{id} | обновляет product с указанным id в соответствии со спецификацией, указанной в JSON-запросе
 - HTTP-метод : DELETE | URI : /api/product/{id} | удаляет product с указанным id</br></br>
+
 Созданы две сущности (entities) :
 - category :
   - id (int, autoincrement)
