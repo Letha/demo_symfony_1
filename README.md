@@ -8,7 +8,9 @@
 - HTTP-метод : POST :
   - URI : /api/products | создаёт products по спецификациям, указанным в JSON-запросе
   - URI : /api/product | создаёт product по спецификации, указанной в JSON-запросе</br></br>
-- HTTP-метод : PUT | URI : /api/product/{id} | обновляет product с указанным id в соответствии со спецификацией, указанной в JSON-запросе
+- HTTP-метод : PUT :
+  - URI : /api/product/{id} | обновляет product с указанным id в соответствии со спецификацией, указанной в JSON-запросе
+  - URI : /api/product | обновляет product, идентифицированный свойством, значение которого задано в спецификации, указанной в JSON-запросе
 - HTTP-метод : DELETE | URI : /api/product/{id} | удаляет product с указанным id</br></br>
 
 Созданы две сущности (entities) :
